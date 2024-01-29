@@ -486,3 +486,17 @@ line-height: 24px
     gap: 12px;
     margin-bottom: 12px;
 }
+.frame-parent1, .frame-parent4 {
+    margin-top: 30px;
+}
+.btton-one {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    color: #000 !important;
+    border-radius: 8px;
+    border: 1px solid #000;
+    transition-duration: .3s;
+}

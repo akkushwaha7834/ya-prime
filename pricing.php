@@ -33,9 +33,9 @@
                       <div class="month">Minimum Deposit</div>
                     </div>
                     <a href="request-demo.php" class="get-started">
-                      <div class="button btton">
+                      <div class="button btton-one">
                         Get started
-                        <img class="arrow-icon" alt="" src="images/arrow.svg">
+                        <img class="arrow-icon" alt="" src="images/arrow-black.svg">
                       </div>
                     </a>
                   </div>
@@ -146,7 +146,7 @@
                     <a href="request-demo.php" class="get-started">
                       <div class="button1 btton">
                         Get started
-                        <img class="arrow-icon" alt="" src="images/arrow-black.svg">
+                        <img class="arrow-icon" alt="" src="images/arrow.svg">
                       </div>
                     </a>
                   </div>
@@ -258,9 +258,9 @@
                       <div class="month">Minimum Deposit</div>
                     </div>
                     <a href="request-demo.php" class="get-started">
-                      <div class="button2 btton">
+                      <div class="button2 btton-one">
                         Get started
-                        <img class="arrow-icon" alt="" src="images/arrow.svg">
+                        <img class="arrow-icon" alt="" src="images/arrow-black.svg">
                       </div>
                     </a>
                   </div>

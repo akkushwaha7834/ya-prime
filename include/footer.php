@@ -38,95 +38,136 @@
       <div class="col-md-3 col-width">
         <h6>About company</h6>
         <ul>
-          <a href="about-us.php">
-            <li>About us</li>
-          </a>
-
-          <a href="why-choose-us.php">
-            <li>Why choose us</li>
-          </a>
-          <a href="blog">
-            <li>Our Blog</li>
-          </a>
-          <a href="careers.php">
-            <li>Careers</li>
-          </a>
-          <a href="portfolio.php">
-            <li>Portfolio</li>
-          </a>
-          <a href="our-teams.php">
-            <li>Meet our Team</li>
-          </a>
+          <li>
+            <a href="about-us.php">
+              About us
+            </a>
+          </li>
+          <li>
+            <a href="why-choose-us.php">
+              Why choose us
+            </a>
+          </li>
+          <li>
+            <a href="blog">
+              Our Blog
+            </a>
+          </li>
+          <li>
+            <a href="careers.php">
+              Careers
+            </a>
+          </li>
+          <li>
+            <a href="portfolio.php">
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a href="our-teams.php">
+              Meet our Team
+            </a>
+           </li> 
         </ul>
       </div>
       <div class="col-md-3 col-width">
         <h6>Broker Solution</h6>
         <ul>
-          <a href="white-label.php">
-            <li>White Label</li>
-          </a>
-          <a href="admin-consultation.php">
-            <li>Admin Consultation</li>
-          </a>
-          <a href="liquidity-solution.php">
-            <li>Liquidity Solution</li>
-          </a>
-          <a href="crm-api.php">
-            <li>CRM & API</li>
-          </a>
+          <li>
+            <a href="white-label.php">
+              White Label
+            </a>
+          </li>
+          <li>
+            <a href="admin-consultation.php">
+              Admin Consultation
+            </a>
+          </li>
+          <li>
+            <a href="liquidity-solution.php">
+              Liquidity Solution
+            </a>
+          </li>
+          <li>
+            <a href="crm-api.php">
+              CRM & API
+            </a>
+          </li>
         </ul>
       </div>
       <div class="col-md-3 col-width">
         <h6>Services</h6>
         <ul>
-
-          <a href="ui-ux.php">
-            <li>UI/UX Design</li>
-          </a>
-          <a href="web-development.php">
-            <li>Web Development</li>
-          </a>
-          <a href="app-development.php">
-            <li>App Development</li>
-          </a>
-          <a href="graphic-design.php">
-            <li>Graphic Design</li>
-          </a>
-          <a href="digital-marketing.php">
-            <li>Digital Marketing</li>
-          </a>
+          <li>
+            <a href="ui-ux.php">
+              UI/UX Design
+            </a>
+          </li>
+          <li>
+            <a href="web-development.php">
+              Web Development
+            </a>
+          </li>
+          <li>
+            <a href="app-development.php">
+              App Development
+            </a>
+          </li>
+          <li>
+            <a href="graphic-design.php">
+              Graphic Design
+            </a>
+          </li>
+          <li>
+            <a href="digital-marketing.php">
+              Digital Marketing
+            </a>
+          </li>
         </ul>
       </div>
       <div class="col-md-3 col-width">
         <h6>Research & Advisory</h6>
         <ul>
-          <a href="ya-wealth.php">
-            <li>Ya Wealth</li>
-          </a>
-          <a href="free-service.php">
-            <li>Free Services</li>
-          </a>
-          <a href="personal-advisory.php">
-            <li>Personal Advisory</li>
-          </a>
-          <a href="blog">
-            <li>Our Blog</li>
-          </a>
+          <li>
+            <a href="ya-wealth.php">
+              Ya Wealth
+            </a>
+          </li>
+          <li>
+            <a href="free-service.php">
+              Free Services
+            </a>
+          </li>
+          <li>
+            <a href="personal-advisory.php">
+              Personal Advisory
+            </a>
+          </li>
+          <li>
+            <a href="blog">
+              Our Blog
+            </a>
+          </li>
         </ul>
       </div>
       <div class="col-md-3 col-width">
         <h6>Institutional Trading</h6>
         <ul>
-          <a href="prime-vip.php">
-            <li>Prime VIP</li>
-          </a>
-          <a href="prime-vvip.php">
-            <li>Prime VVIP</li>
-          </a>
-          <a href="prime-special.php">
-            <li>Prime Special</li>
-          </a>
-
+          <li>
+            <a href="prime-vip.php">
+              Prime VIP
+            </a>
+          </li>
+          <li>
+            <a href="prime-vvip.php">
+              Prime VVIP
+            </a>
+          </li>
+          <li>
+            <a href="prime-special.php">
+              Prime Special
+            </a>
+          </li>
         </ul>
       </div>
 
