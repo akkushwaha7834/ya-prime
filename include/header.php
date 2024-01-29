@@ -8,9 +8,67 @@
     <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./vendor/font-awesome/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+        * {
+            cursor: none !important;
+        }
+
+        .cursor {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            background-color: #f8c117;
+            opacity: .7;
+            transition: all 200ms ease-out;
+            position: fixed;
+            pointer-events: none;
+            left: 0;
+            top: 0;
+            transform: translate(calc(-50% + 15px), -50%);
+            z-index: 9999;
+        }
+
+        .cursor2 {
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background: #010101;
+            opacity: 0.5;
+            position: fixed;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            transition: width 0.3s, height 0.3s, opacity 0.3s;
+            z-index: 9999;
+        }
+
+        .cursorinnerhover {
+            width: 40px;
+            height: 40px;
+            opacity: 0.5;
+        }
+
+        .cursor.hover {
+            width: 70px;
+            height: 70px;
+            background-color: #f8c117;
+            opacity: .7;
+        }
+
+        .cursor.hover::before {
+            position: absolute;
+            content: "";
+            color: #000;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 
 <body>
+
+    <div class="cursor d-lg-block d-none"></div>
+    <div class="cursor2 d-lg-block d-none"></div>
 
     <header class="header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
