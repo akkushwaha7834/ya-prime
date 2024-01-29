@@ -392,10 +392,21 @@ line-height: 24px
 .image_box:hover{
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
     transform: translateY(-5px);
+    border-radius: 0;
 }
 .image_box{
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     transition: all .5s;
     padding: 30px;
     height: 100%;
+    border-radius: 20px 0;
+}
+.factoids_number{
+    color: #F9C213;
+}
+.image_caption{
+    text-align: center;
+}
+.image_caption img{
+    width: 25%;
 }
