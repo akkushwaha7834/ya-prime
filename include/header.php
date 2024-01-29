@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YaPrime</title>
+    <title>Start Your Own Forex Brokerage | Forex Broker Services</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./vendor/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/style.css" />
     <style>
         * {
@@ -33,7 +35,7 @@
             height: 10px;
             border-radius: 100%;
             background: #010101;
-            opacity: 0.5;
+            /* opacity: 0.5; */
             position: fixed;
             transform: translate(-50%, -50%);
             pointer-events: none;
@@ -51,7 +53,7 @@
             width: 70px;
             height: 70px;
             background-color: #f8c117;
-            opacity: .7;
+            opacity: .3;
         }
 
         .cursor.hover::before {
@@ -61,6 +63,12 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+        }
+
+        @media (max-width: 991px) {
+            * {
+                cursor: auto !important;
+            }
         }
     </style>
 </head>
@@ -73,7 +81,9 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
-                <a class="navbar-brand" href="#">LOGO</a>
+                <a class="navbar-brand" href="./">
+                    <img src="images/logo.svg" alt="Logo" class="img-fluid" />
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
