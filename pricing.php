@@ -6,11 +6,11 @@
         <div class="col-md-12">
           <div class="text">
             <div class="pricing-plans-parent">
-              <p class="pricing-plans">Pricing plans</p>
-              <p class="check-our-white">Forex Broker Service Plans</p>
+              <p class="mt4-limited">Pricing plans</p>
+              <p class="pricing_para one">Forex Broker Service Plans</p>
             </div>
             <div class="experience-in-forex-container">
-              <p class="experience-in-forex">Explore our best-in-industry forex broker services plans<br>Specially tailored to fuel your forex trading business</p>
+              <p class="pricing_para one">Explore our best-in-industry forex broker services plans<br>Specially tailored to fuel your forex trading business</p>
               <!-- <p class="experience-in-forex">Specially tailored to fuel your forex trading business</p> -->
             </div>
           </div>
@@ -23,8 +23,8 @@
               <div class="plan">
                 <div class="frame-group">
                   <div class="mt4-limited-parent">
-                    <div class="mt4-limited">Prime VIP</div>
-                    <div class="pricing_para">Designed for aspiring Forex <br> brokers.
+                    <div class="mt4-limited one">Prime VIP</div>
+                    <div class="pricing_para one">Designed for aspiring Forex <br> brokers.
                     </div>
                   </div>
                   <div class="frame-container">
@@ -129,7 +129,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="pricing_one">
+          <div class="pricing_one pricing">
             <div class="plans">
               <div class="plan1">
                 <div class="frame-parent2">
@@ -248,8 +248,8 @@
               <div class="plan">
                 <div class="frame-group">
                   <div class="mt4-limited-parent">
-                    <div class="mt4-limited">Prime Special</div>
-                    <div class="pricing_para">Ideal for brokers looking to start strong	
+                    <div class="mt4-limited one">Prime Special</div>
+                    <div class="pricing_para one">Ideal for brokers looking to start strong	
                     </div>
                   </div>
                   <div class="frame-container">
