@@ -1,4 +1,4 @@
-<?php include_once('./include/header.php') ?>
+
 
 <!-- Partners Section -->
              <section class="partners-section">
@@ -97,4 +97,3 @@
 </div>
 </section>
              <!-- end of partners section -->
-             <?php include_once('./include/footer.php') ?>

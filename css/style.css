@@ -619,6 +619,7 @@ a {
     padding: 30px;
     height: 100%;
     border-radius: 20px 0;
+    background: #fff;
 }
 
 .factoids_number {
@@ -920,4 +921,7 @@ a {
     .card-box>.pos {
         transform: translateY(368px);
     }
+}
+.factoids_section{
+    transform: translateY(-100px);
 }

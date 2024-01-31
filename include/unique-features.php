@@ -1,4 +1,3 @@
-<?php include_once('./include/header.php') ?>
 
 <!-- unique feature -->
    <section class="unique-section">
@@ -113,4 +112,3 @@ An exclusive account for high volume traders looking for competitive pricing and
    </section>
    <!-- end of  unique feature -->
 
-   <?php include_once('./include/footer.php') ?>
