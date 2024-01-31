@@ -172,18 +172,15 @@ a {
 .col-width a {
     text-decoration: none;
     color: #000;
-}
-
-.col-width a:hover li {
-    margin-left: 5px;
-    transform: translateX(5px);
     transition-duration: .3s;
 }
 
 .col-width a:hover {
-    text-decoration: none;
+    margin-left: 5px;
+    transform: translateX(5px);
     color: #FAC211;
 }
+
 
 .copyrights a:hover {
     color: #fac213;
@@ -624,6 +621,7 @@ a {
 
 .factoids_number {
     color: #F9C213;
+    margin: 10px 0;
 }
 
 .image_caption {
