@@ -630,3 +630,17 @@ line-height: 24px
 .why_dm{
     padding: 100px 0;
 }
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #ffffff;
+    padding: 100px 0;
+    color: #fff;
+}
+.breadcrumb{display: flex; align-items: center;}
+.breadcrumb a{color: #fff; margin-right: 5px;}
+.breadcrumb svg {
+    margin-right: 5px;
+}
