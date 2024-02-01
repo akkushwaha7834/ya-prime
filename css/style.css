@@ -921,5 +921,48 @@ a {
     }
 }
 .factoids_section{
+/*    transform: translateY(-100px);*/
+}
+.about_us_section{
+    padding: 100px 0;
+    background: #FFFAEF;
+}
+.trading_indices{
     transform: translateY(-100px);
+}
+.step_process{
+    padding: 100px 0;
+    background: url(../images/bg-dots.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.step_process .nav-pills .nav-link{
+    text-align: center;
+    padding: 10px 40px;
+    border: 1px solid #e9e9e9;
+    margin-bottom: 10px;
+    background: #fff;
+    color: #ffc008;
+    border-radius: 5px 0 0 5px;
+}
+.step_process .nav-pills .nav-link.active{
+    border: 1px solid #ffc008;
+    background: #ffc008;
+    color: #000;
+}
+.step_process .nav-link.active:after {
+    position: absolute;
+    content: "";
+    right: -17px;
+    top: 6px;
+    border: 16px solid #000;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(45deg);
+}
+.step_process .nav-link{
+    position: relative;
+}
+.step_process .nav-link:focus-visible{
+    box-shadow: none;
 }
