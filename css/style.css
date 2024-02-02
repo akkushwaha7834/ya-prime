@@ -966,3 +966,62 @@ a {
 .step_process .nav-link:focus-visible{
     box-shadow: none;
 }
+.about_section{
+    padding: 100px 0;
+}
+.contact_us_banner {
+    background-image: url(../images/contact-us.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #ffffff;
+    padding: 100px 0;
+    color: #fff;
+}
+.contact_section{
+    background-image: url(../images/service-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+.service-left{
+    background: #fff;
+    padding: 50px;
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 15px 15px rgb(248 196 34 / 31%);
+    border-radius: 20px;
+}
+.service-left form input, .service-left form textarea {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #fab915;
+}
+.btn-4 {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 4px 22px;
+    background: #fab915;
+    color: #fff;
+    border: 1px solid #fab915;
+    transition: all 0.4s;
+    border-radius: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
+}
+.modal.show .modal-dialog{
+    max-width: 100%;
+    width: 75%;
+}

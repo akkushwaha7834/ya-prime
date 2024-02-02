@@ -222,7 +222,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <img src="images/illustrations.png" width="100%">
+              <img src="images/why.png" class="img-fluid">
             </div>
             <div class="col-md-6 pop_up_form_class">
               <form>
