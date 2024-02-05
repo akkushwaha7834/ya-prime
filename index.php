@@ -89,7 +89,7 @@
         </h2>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row">
       <div class="col-md-3">
         <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           <button class="nav-link active" id="v-pills-step-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-step-one" type="button" role="tab" aria-controls="v-pills-step-one" aria-selected="true">Step One</button>
@@ -106,7 +106,7 @@
         <div class="tab-content tab_content" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-step-one" role="tabpanel" aria-labelledby="v-pills-step-one-tab" tabindex="0">
             <div class="container">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-md-6">
                   <h3>
                     COMPANY FORMATION
@@ -123,7 +123,7 @@
             </div>
           <div class="tab-pane fade" id="v-pills-step-two" role="tabpanel" aria-labelledby="v-pills-step-two-tab" tabindex="0">
             <div class="container">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-md-6">
                   <h3>
                     BANK ACCOUNT OF COMPANY
@@ -140,7 +140,7 @@
           </div>
           <div class="tab-pane fade" id="v-pills-step-three" role="tabpanel" aria-labelledby="v-pills-step-three-tab" tabindex="0">
             <div class="container">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-md-6">
                   <h3>
                     PHYSICAL ADDRESS
@@ -157,7 +157,7 @@
           </div>
           <div class="tab-pane fade" id="v-pills-step-four" role="tabpanel" aria-labelledby="v-pills-step-four-tab" tabindex="0">
             <div class="container">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-md-6">
                   <h3>
                     WEBSITE & LOGO
@@ -174,7 +174,7 @@
           </div>
           <div class="tab-pane fade" id="v-pills-step-five" role="tabpanel" aria-labelledby="v-pills-step-five-tab" tabindex="0">
             <div class="container">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-md-6">
                   <h3>
                     CRM
@@ -191,7 +191,7 @@
           </div>
           <div class="tab-pane fade" id="v-pills-step-six" role="tabpanel" aria-labelledby="v-pills-step-six-tab" tabindex="0">
             <div class="container">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-md-6">
                   <h3>
                     TRADING PLATFORM
@@ -208,7 +208,7 @@
           </div>
           <div class="tab-pane fade" id="v-pills-step-seven" role="tabpanel" aria-labelledby="v-pills-step-seven-tab" tabindex="0">
             <div class="container">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-md-6">
                   <h3>
                     SERVER SETUP
@@ -225,7 +225,7 @@
           </div>
           <div class="tab-pane fade" id="v-pills-step-eight" role="tabpanel" aria-labelledby="v-pills-step-eight-tab" tabindex="0">
             <div class="container">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-md-6">
                   <h3>
                     LIQUIDITY
