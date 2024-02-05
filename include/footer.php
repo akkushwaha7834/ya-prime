@@ -212,7 +212,7 @@
 </section>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Create Your Prime Account </h5>
@@ -226,7 +226,7 @@
             </div>
             <div class="col-md-6 pop_up_form_class">
               <form>
-                <div class="form-row form-group">
+                <div class="row form-group mb-3">
                   <div class="col-md-6">
                     <label for="formGroupExampleInput">Full Name</label>
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" required="" name="name" data-gtm-form-interact-field-id="1">
@@ -236,7 +236,7 @@
                     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email Address" required="" name="email" data-gtm-form-interact-field-id="2">
                   </div>
                 </div>
-                <div class="form-row form-group">
+                <div class="row form-group mb-3">
                   <div class="col-md-6">
                     <label for="inputState">Enter Contact Number</label>
                     <input type="text" placeholder="Enter Contact Number" name="contact_number" class="form-control">
@@ -246,7 +246,7 @@
                     <input type="text" placeholder="Your Country" name="country" class="form-control">
                   </div>
                 </div>
-                <div class="form-row form-group">
+                <div class="row form-group mb-3">
                   <div class="col-md-12">
                     <label for="inputState">Are You A ?</label>
                     <select class="form-control" id="areyoua" name="areyoua" required="">
@@ -258,7 +258,7 @@
                     </select>
                   </div>
                 </div>
-                <div class="form-row form-group">
+                <div class="row form-group mb-3">
                   <div class="col-md-12">
                     <label for="inputState">What are the product or services you looking for?</label>
                     <select class="form-control" id="products" name="products" required="">
@@ -282,7 +282,7 @@
                     </select>
                   </div>
                 </div>
-                <div class="form-row form-group">
+                <div class="row form-group mb-3">
                   <div class="col-md-12">
                     <label for="inputState">Do you need a quote ?</label>
                     <select class="form-control" id="qoute" name="qoute" required="">
@@ -292,7 +292,7 @@
                     </select>
                   </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-3">
                   <label for="exampleFormControlTextarea1">Give me a brief about your requirement</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" cols="50" placeholder="Message" name="message"></textarea>
                 </div>
@@ -311,6 +311,7 @@
 <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
 <script src="./vendor/font-awesome/js/all.min.js"></script>
 <script src="./vendor/owl-carousel/js/owl.carousel.js"></script>
+<script type="text/javascript" src="./js/youtube-popup.js"></script>
 <script src="./js/app.js"></script>
 </body>
 

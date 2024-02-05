@@ -60,3 +60,4 @@ $(document).ready(function () {
     autoplay: true,
   });
 });
+$(".youtube-btn").grtyoutube({autoPlay:!0});
