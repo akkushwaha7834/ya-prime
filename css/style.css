@@ -446,20 +446,12 @@ a {
 
 /* hero section css start */
 .hero-section {
-    background-color: #000;
-    background-image: linear-gradient(180deg, #f5f5f5, #ffe38b);
-    position: relative;
-    z-index: 0;
+    background: url(../images/bg-main.png), linear-gradient(180deg, #fff, #ffe38b)!important;
+    background-position: center;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
 }
 
-.hero-section::before {
-    position: absolute;
-    content: '';
-    inset: 0;
-    background-image: linear-gradient(180deg, #f5f5f500, #0006);
-    opacity: 0.8;
-    z-index: -1;
-}
 
 /* hero section css end */
 
@@ -1091,4 +1083,89 @@ a {
     padding:42px 32px;
     border-radius:1rem;
     background-color:#2e2d3c80;
+}
+.liquidity_banner{
+    background: url(../images/liquidity.png);
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.prime_benefits_section{
+    padding: 100px 0;
+}
+.benefits-heading{
+    color: #fac211;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.benefits_heading {
+    color: #222;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    align-self: stretch;
+}
+.image_content_box{
+    display: flex;
+    align-items: center;
+}
+.image_content_box img{
+    margin-right: 20px;
+}
+.image_content_box{
+    margin-top: 20px;
+}
+.about_us_section{
+    background: url(../images/bgg.jpeg);
+    padding: 100px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about_us_section h2{
+    color: #FFC007;
+}
+.about_right{
+    display: flex;
+    align-items: end;
+}
+.border-anim {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-anim::before {
+    position: absolute;
+    content: '';
+    inset: 0;
+    border: 3px dashed #fac211;
+    border-right-color: #fac211;
+    border-left-color: #fac211;
+    border-radius: 50%; 
+    animation: round 30s 0s infinite linear;
+}
+@-moz-keyframes round { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes round { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes round { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
 }

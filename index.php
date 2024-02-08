@@ -1,8 +1,8 @@
 <?php include_once('./include/header.php') ?>
 
-<section class="pt-5 hero-section">
+<section class=" hero-section">
   <div class="container">
-    <div class="row align-items-center gy-4">
+    <div class="row align-items-center">
       <div class="col-md-6">
         <div id="hero-slider" class="owl-carousel owl-theme">
           <div class="item">
@@ -18,8 +18,8 @@
         <p>Are you ready to venture into the dynamic and potentially lucrative world of Forex brokerage?</p>
         <a href="#" class="d-inline-block mt4_anchor">Find out more</a>
       </div>
-      <div class="col-md-6 col-lg-5 col-xl-4 mx-auto">
-        <img src="./images/man-3.png" alt="ACCELERATE THE USER EXPERIENCE" class="img-fluid" />
+      <div class="col-md-6">
+        <img src="./images/woman-banner.webp" alt="ACCELERATE THE USER EXPERIENCE" class="img-fluid" />
       </div>
     </div>
   </div>
@@ -246,30 +246,7 @@
   </div>
 </section>
 
-
-<section class="about_us_section">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <h2>Donec ullamcorper magna non</h2>
-        <p class="para">Donec ullamcorper magna non orci scele risque consect enean ornare lectus nunc, elementum fermentum erat mattis id. Donec ullamcorper magna non orci scele risque consect enean ornare lectus nunc, elementum fermentum erat mattis id. Donec ullamcorper magna non orci scele risque consect enean ornare lectus nunc, elementum fermentum erat mattis id.</p>
-        <p class="para">Donec ullamcorper magna non orci scele risque consect enean ornare lectus nunc, elementum fermentum erat mattis id. Donec ullamcorper magna non orci scele risque consect enean ornare lectus nunc, elementum fermentum erat mattis id. Donec ullamcorper magna non orci scele risque consect enean ornare lectus nunc, elementum fermentum erat mattis id.</p>
-      </div>
-      <div class="col-md-6">
-        <div class="section-about-video">
-          <div class="about-img position-relative">
-            <img src="images/business-loan-about.jpg" class="attachment-full size-full w-100" alt="" decoding="async" loading="lazy">
-          <div class="video-play position-absolute">
-            <a role="button" class="youtube-btn popup-youtube" youtubeid="QM36CINq67M">
-              <img width="82" height="82" src="images/play-icon.png" class="attachment-full size-full" alt="" decoding="async" loading="lazy">            
-            </a>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<?php include_once('./include/about-us.php') ?>
 
 
 <?php include('./include/unique-features.php'); 

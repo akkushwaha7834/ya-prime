@@ -52,7 +52,7 @@
 </div>
 <!-- TradingView Widget END -->
     <header class="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary px-xxl-5">
+        <nav class="navbar navbar-expand-lg px-xxl-5">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./">
                     <img src="images/logo.svg" alt="Logo" class="img-fluid" />

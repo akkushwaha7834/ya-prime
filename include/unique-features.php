@@ -56,7 +56,9 @@
                           </div>
                     </div>
                     <div class="col-md-12 featured-card text-center">
-                        <img src="images/unique-feature.png" alt="" width="100%">
+                        <figure class="mb-0 border-anim mx-auto">
+                            <img src="images/unique-feature.png" alt="" class="img-fluid">
+                        </figure>
                     </div>
                     <div class="col-md-12">
                         <div class="card  featured-card two">
