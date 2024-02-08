@@ -1315,9 +1315,17 @@ a {
 .process-box h5{font-size: 18px}
 .pricing_sec{
     padding: 50px 0;
-    background: url(https://themewar.com/html/quera/assets/images/bg/11.png), #ffc00836;
+    background: url(../images/11.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+.pricing_banner{
+    padding: 100px 0;
+    background: url(../images/pri-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }

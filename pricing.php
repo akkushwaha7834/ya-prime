@@ -1,5 +1,20 @@
 <?php include_once('./include/header.php') ?>
 
+<section class="pricing_banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Forex Broker Service Plans</h1>
+        <div class="breadcrumb">
+          <a href="index.php">Home</a>
+          <span class="fa fa-angle-double-right"></span>
+          <span class="current">Pricing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
   <section class="pricing_sec">
     <div class="container">
       <div class="row">
