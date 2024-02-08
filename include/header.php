@@ -80,9 +80,9 @@
                                             <div class="row gx-5">
                                                 <div class="col-lg-4">
                                                     <ul class="list-unstyled">
-                                                        <li class="dropdown-header">Features</li>
-                                                        <li><a href="#">Auto Carousel</a></li>
-                                                        <li><a href="#">Carousel Control</a></li>
+                                                        <li class="dropdown-header">About Us</li>
+                                                        <li><a href="#">About Us</a></li>
+                                                        <li><a href="#">Careers</a></li>
                                                         <li><a href="#">Left & Right Navigation</a></li>
                                                         <li><a href="#">Four Columns Grid</a></li>
                                                         <li>
@@ -202,53 +202,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </li>
-                                <li class="nav-item dropdown mega-dropdown">
-                                    <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
-                                        Advisory
-                                    </a>
-                                    <div class="dropdown-menu mega-dropdown-menu border-0 shadow">
-                                        <div class="container">
-                                            <div class="row gx-5">
-                                                <div class="col-lg-4">
-                                                    <ul class="list-unstyled">
-                                                        <li class="dropdown-header">Features</li>
-                                                        <li><a href="#">Auto Carousel</a></li>
-                                                        <li><a href="#">Carousel Control</a></li>
-                                                        <li><a href="#">Left & Right Navigation</a></li>
-                                                        <li><a href="#">Four Columns Grid</a></li>
-                                                        <li>
-                                                            <hr class="dropdown-divider" />
-                                                        </li>
-                                                        <li class="dropdown-header">Fonts</li>
-                                                        <li><a href="#">Glyphicon</a></li>
-                                                        <li><a href="#">Google Fonts</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <ul class="list-unstyled">
-                                                        <li class="dropdown-header">Plus</li>
-                                                        <li><a href="#">Navbar Inverse</a></li>
-                                                        <li><a href="#">Pull Right Elements</a></li>
-                                                        <li><a href="#">Coloured Headers</a></li>
-                                                        <li><a href="#">Primary Buttons & Default</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <ul class="list-unstyled">
-                                                        <li class="dropdown-header">Much more</li>
-                                                        <li><a href="#">Easy to Customize</a></li>
-                                                        <li><a href="#">Calls to action</a></li>
-                                                        <li><a href="#">Custom Fonts</a></li>
-                                                        <li><a href="#">Slide down on Hover</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Wealth</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Institutional Clients</a>
