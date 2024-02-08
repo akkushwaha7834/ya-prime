@@ -625,12 +625,10 @@ a {
 }
 
 .pricing {
+    background: #fff;
     padding: 40px 20px;
     border-radius: 8px;
-    border-top: 1px solid #FAC211 !important;
-    border-right: 4px solid #FAC211 !important;
-    border-bottom: 4px solid #FAC211 !important;
-    border-left: 1px solid #FAC211 !important;
+    border: 1px solid #FAC211 !important;
     height: 100%;
     transition-duration: .3s;
 }
@@ -638,10 +636,7 @@ a {
 .pricing_one {
     padding: 40px 20px;
     border-radius: 8px;
-    border-top: 1px solid #FAC211 !important;
-    border-right: 4px solid #FAC211 !important;
-    border-bottom: 4px solid #FAC211 !important;
-    border-left: 1px solid #FAC211 !important;
+    border: 1px solid #FAC211 !important;
     background: #1A1A1A;
     transition-duration: .3s;
     color: #fff;
@@ -652,10 +647,6 @@ a {
 .pricing:hover {
     border-radius: 8px;
     padding: 40px 20px;
-    border-top: 1px solid #FAC211 !important;
-    border-right: 4px solid #FAC211 !important;
-    border-bottom: 4px solid #FAC211 !important;
-    border-left: 1px solid #FAC211 !important;
     background: #1A1A1A;
     transition-duration: .3s;
     color: #fff;
@@ -675,10 +666,6 @@ a {
 .pricing_one:hover {
     border-radius: 8px;
     padding: 40px 20px;
-    border-top: 1px solid #FAC211 !important;
-    border-right: 4px solid #FAC211 !important;
-    border-bottom: 4px solid #FAC211 !important;
-    border-left: 1px solid #FAC211 !important;
     background: #1A1A1A;
     transition-duration: .3s;
 }
@@ -787,7 +774,7 @@ a {
 }
 
 .row.pricing_row_two {
-    padding: 100px 0;
+    padding: 100px 0 50px;
 }
 
 .work-process-content {
@@ -1326,3 +1313,11 @@ a {
     z-index: 9;
 }
 .process-box h5{font-size: 18px}
+.pricing_sec{
+    padding: 50px 0;
+    background: url(https://themewar.com/html/quera/assets/images/bg/11.png), #ffc00836;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
