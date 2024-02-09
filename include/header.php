@@ -289,6 +289,7 @@
                            <li class="nav-item">
                               <a href="contact-us.php" class="nav-link">Contact us</a>
                            </li>
+                           <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Request Quote</button>
                         </ul>
                      </div>
                   </div>
