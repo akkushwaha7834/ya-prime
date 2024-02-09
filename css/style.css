@@ -570,6 +570,53 @@ a {
 .mt4_anchor:hover {
     color: #fff;
 }
+.qoute_wrapper_yellow {
+    font-size: 14px;
+    color: #636A7E;
+    background: #fac213;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition-duration: 0.2s;
+    box-shadow: 0rem 0rem 0rem rgba(13, 10, 30, 0);
+    cursor: pointer;
+    border: 1px solid #F7F9FC;
+}
+.qoute_wrapper_yellow:hover {
+    background: #FFFFFF;
+    border: 1px solid #F7F9FC;
+    transform: translateY(-5%);
+    box-shadow: 0rem 0.5rem 1rem rgba(13, 10, 30, 0.05);
+}
+.qoute_wrapper_yellow .symbol {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 0.5rem;
+    color: #0D0A1E;
+}
+.trading_cards_row_two {
+    margin-top: 20px;
+}
+.qoute_wrapper_yellow .spread {
+    color: #0D0A1E;
+    margin-top: 0.5rem;
+}
+.qoute_wrapper_yellow .rate {
+    color: #000;
+}
+.forex_liquidity {
+    padding: 80px 0;
+}
+.counter_number {
+    font-size: 24px;
+    line-height: 32px;
+    color: #222;
+}
+.counter_number::before {
+    content: "|";
+    color: #fac211;
+}
 
 .qoute_wrapper_black {
     font-size: 14px;
@@ -1134,6 +1181,11 @@ a {
 }
 .prime_benefits_section{
     padding: 100px 0;
+    background: url(../images/11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .benefits-heading{
     color: #fac211;
@@ -1381,4 +1433,7 @@ a {
     background-size: cover;
     background-position: center;
     color: #fff;
+}
+.liquidity_row_two, .liquidity_row_three {
+    margin-top: 30px;
 }

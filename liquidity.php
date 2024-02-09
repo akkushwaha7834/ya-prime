@@ -15,6 +15,190 @@
 	</div>
 </section>
 
+<section class="forex_liquidity">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 liquidity_left_content">
+          <div class="liquidity_content">
+            <h4 class="forex_liquidity_h4">
+              Liquidity Solutions
+            </h4>
+            <h2 class="forex_liquidity_h1">
+              Explore Top-Tier Forex Liquidity
+            </h2>
+            <p class="forex_liquidity_p">
+            Step onto the ladder of elite FX liquidity with YaPrime. We are one of the leading Forex Liquidity Providers, and with our relentless dedication, we deliver you the highest possible liquidity solution. Select from the broadest selection of integration options available, including APIs and FIX connectivity, to easily integrate your current systems into our liquidity offering.</p>
+            <p class="forex_liquidity_p">
+            YaPrime gives you DMA (Direct Market Access) on regulated liquidity pools via our LPs; LPs offer low latency pricing in FX, CFDs, options and other financial products. Get into exceptional Forex trading with us as you explore the Best Forex Liquidity solutions that renovate the industry.
+            </p>
+          </div>
+          <div class="liquidity_counter">
+            <div class="row liquidity_row_one">
+              <div class="col-md-6">
+                <div class="counter_number">
+                  0
+                </div>
+                <div class="counter_content">
+                  Spreads form
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="counter_number">
+                  1%
+                </div>
+                <div class="counter_content">
+                  Margin requirements
+                </div>
+              </div>
+            </div>
+            <div class="row liquidity_row_two">
+              <div class="col-md-6">
+                <div class="counter_number">
+                  24/5
+                </div>
+                <div class="counter_content">
+                  Trading hours
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="counter_number">
+                  7
+                </div>
+                <div class="counter_content">
+                  Liquidity venues
+                </div>
+              </div>
+            </div>
+            <div class="row liquidity_row_two">
+              <div class="col-md-6">
+                <div class="counter_number">
+                  24/7
+                </div>
+                <div class="counter_content">
+                  Technical support
+                </div>
+              </div>
+            </div>
+            <div class="row liquidity_row_two">
+              <div class="col-md-6">
+                <a class="unique_anchor_one" href="request-demo.php">Get Started </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 liquidity_right_content">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="qoute_wrapper_yellow">
+                <div class="symbol">
+                  <img src="images/eur-usd.svg">
+                  EUR/USD
+                </div>
+                <div class="rate">
+                  1.07424 / 1.07425
+                </div>
+                <div class="spread">
+                  Spread<br><span>0.1</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="qoute_wrapper_black">
+                <div class="symbol">
+                  <img src="images/usd-jpy.svg">
+                  USD/JPY
+                </div>
+                <div class="rate">
+                  1.07424 / 1.07425
+                </div>
+                <div class="spread">
+                  Spread<br><span>0.1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row trading_cards_row_two">
+            <div class="col-md-6">
+              <div class="qoute_wrapper_black">
+                <div class="symbol">
+                  <img src="images/gbp-usd.svg">
+                  GBP/USD
+                </div>
+                <div class="rate">
+                  1.07424 / 1.07425
+                </div>
+                <div class="spread">
+                  Spread<br><span>0.1</span>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-md-6">
+              <div class="qoute_wrapper_yellow">
+                <div class="symbol">
+                  <img src="images/usd-chf.svg">
+                  USD/CHF
+                </div>
+                <div class="rate">
+                  1.07424 / 1.07425
+                </div>
+                <div class="spread">
+                  Spread<br><span>0.1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row trading_cards_row_two">
+            <div class="col-md-6">
+              <div class="qoute_wrapper_yellow">
+                <div class="symbol">
+                  <img src="images/aud-usd.svg">
+                  AUD/USD
+                </div>
+                <div class="rate">
+                  1.07424 / 1.07425
+                </div>
+                <div class="spread">
+                  Spread<br><span>0.1</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="qoute_wrapper_black">
+                <div class="symbol">
+                  <img src="images/usd-cad.svg">
+                  USD/CAD
+                </div>
+                <div class="rate">
+                  1.07424 / 1.07425
+                </div>
+                <div class="spread">
+                  Spread<br><span>0.1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row trading_cards_row_two">
+            <div class="col-md-6">
+            <div class="qoute_wrapper_black">
+              <div class="symbol">
+                  <img src="images/nzd-usd.svg">
+                  NZD/USD
+              </div>
+              <div class="rate">
+                  1.07424 / 1.07425
+              </div>
+              <div class="spread">
+                  Spread<br><span>0.1</span>
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
 <section class="prime_benefits_section">
 	<div class="container">
 		<div class="row">
@@ -87,5 +271,6 @@
 		</div>
 	</div>
 </section>
+
 
 <?php include_once('./include/footer.php') ?>
