@@ -182,11 +182,11 @@
                               </div> -->
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <a href="broker-setup.php" class="nav-link" role="button" aria-expanded="false">
                                  Broker Setup
-                                 <svg class="ms-1" width="12" height="6" viewBox="0 0 12 6" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                 <!-- <svg class="ms-1" width="12" height="6" viewBox="0 0 12 6" fill="black" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11 1L5.99999 5L1 1" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                 </svg>
+                                 </svg> -->
                               </a>
                               <!-- <div class="dropdown-menu">
                                  <div class="container">
