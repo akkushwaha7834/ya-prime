@@ -1437,3 +1437,25 @@ a {
 .liquidity_row_two, .liquidity_row_three {
     margin-top: 30px;
 }
+.liquidity-sub-parts{
+    padding: 80px 0;
+}
+.vip_pointers .unlisted_list li{
+    width: 50%;
+    float: left;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.vip_image{
+    border: 3px solid #F9C213;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vip_image img{
+    height: 100%;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: -15px;
+    object-fit: cover;
+}

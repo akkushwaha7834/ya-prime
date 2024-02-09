@@ -272,5 +272,41 @@
 	</div>
 </section>
 
+<section class="liquidity-sub-parts">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h4>Prime VIP</h4>
+        <h2>Kickstart your Forex Brokerage with Our Prime VIP Account</h2>
+        <p>Take your Forex Brokerage venture to the next level with our Prime VIP Account. This exclusive Forex VIP Account is designed to accelerate your Forex business growth and give access to a multitude of opportunities.</p>
+      </div>
+    </div>
+    <div class="row liquidity_row_two">
+      <div class="col-md-6">
+        <div class="vip_image">
+          <img src="images/about.jpg" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4>Prime VIP</h4>
+        <h2>Kickstart your Forex Brokerage with Our Prime VIP Account</h2>
+        <p>Take your Forex Brokerage venture to the next level with our Prime VIP Account. This exclusive Forex VIP Account is designed to accelerate your Forex business growth and give access to a multitude of opportunities.</p>
+        <div class="vip_pointers">
+          <ul class="unlisted_list">
+            <li><i class="fa-solid fa-angles-right"></i> Pointer One</li>
+            <li><i class="fa-solid fa-angles-right"></i> Pointer One</li>
+            <li><i class="fa-solid fa-angles-right"></i> Pointer One</li>
+            <li><i class="fa-solid fa-angles-right"></i> Pointer One</li>
+            <li><i class="fa-solid fa-angles-right"></i> Pointer One</li>
+            <li><i class="fa-solid fa-angles-right"></i> Pointer One</li>
+            <li><i class="fa-solid fa-angles-right"></i> Pointer One</li>
+            <li><i class="fa-solid fa-angles-right"></i> Pointer One</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <?php include_once('./include/footer.php') ?>
