@@ -1554,6 +1554,7 @@ a {
     box-shadow: 0 17px 29px rgba(0,0,0,.04), 0 5.125px 8.74265px rgba(0,0,0,.0260636), 0 2.12866px 3.63125px rgba(0,0,0,.02), 0 0.7699px 1.31335px rgba(0,0,0,.013936);
     padding: 10px;
     border-radius: 16px;
+    border: 1px solid #fac213;
 }
 /*.image--img::before{
     content: "";
