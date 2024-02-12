@@ -1,4 +1,4 @@
-<section class="footer-section">
+<section class="footer-section px-0">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
@@ -34,8 +34,8 @@
     </div>
     <hr class="footer_hr" />
 
-    <div class="row">
-      <div class="col-md-3 col-width">
+    <div class="row row-cols-lg-5 row-cols-sm-2">
+      <div class="">
         <h6>About company</h6>
         <ul>
           <li>
@@ -70,7 +70,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-3 col-width">
+      <div class="">
         <h6>Broker Solution</h6>
         <ul>
           <li>
@@ -95,7 +95,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-3 col-width">
+      <div class="">
         <h6>Services</h6>
         <ul>
           <li>
@@ -125,7 +125,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-3 col-width">
+      <div class="">
         <h6>Research & Advisory</h6>
         <ul>
           <li>
@@ -150,7 +150,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-3 col-width">
+      <div class="">
         <h6>Institutional Trading</h6>
         <ul>
           <li>
@@ -195,7 +195,7 @@
     <div class="row">
       <div class="col-md-6">
         <div class="copyrights">
-          <p>All Rights Reserved © 2016-2023 |<a href="index.php"> YaPrime</a></p>
+          <p>All Rights Reserved © 2016-<?= date('Y') ?> | <a href="index.php">YaPrime</a></p>
         </div>
       </div>
       <div class="col-md-6">
@@ -309,7 +309,7 @@
 
 <script src="./vendor/jquery/jquery.min.js"></script>
 <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="./vendor/font-awesome/js/all.min.js"></script>
+<!-- <script src="./vendor/font-awesome/js/all.min.js"></script> -->
 <script src="./vendor/owl-carousel/js/owl.carousel.js"></script>
 <script type="text/javascript" src="./js/youtube-popup.js"></script>
 <script src="./js/app.js"></script>
