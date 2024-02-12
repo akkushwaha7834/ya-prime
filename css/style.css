@@ -221,9 +221,7 @@ a {
     color: #FAC211;
 }
 
-.col-width {
-    max-width: 20% !important;
-}
+
 
 .col-width h6 {
     color: black;
@@ -1558,11 +1556,46 @@ a {
     border-radius: 16px;
 }
 /*.image--img::before{
-    background-image: url("../images/arrow1.png");
     content: "";
     position: absolute;
-    bottom: 16px;
-    width: 210px!important;
-    height: 52px!important;
-    left: 24.5%;
+    bottom: -20%;
+    height: 40px;
+    width: 4px;
+    background: #fac213;
+    left: -12.5%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.image--img::after {
+    content: "";
+    position: absolute;
+    bottom: -6%;
+    left: -12.5%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: #fac213;
+    border-radius: 12px;
+}
+.image_content_wl.mt-4::before {
+    content: "";
+    position: absolute;
+    left: 25.35%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: #fac213;
+    border-radius: 12px;
+    z-index: 999999;
 }*/
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .col-width {
+    max-width: 50% !important;
+}
+}

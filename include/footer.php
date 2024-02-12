@@ -35,7 +35,7 @@
     <hr class="footer_hr" />
 
     <div class="row row-cols-lg-5 row-cols-sm-2">
-      <div class="">
+      <div class="col-width">
         <h6>About company</h6>
         <ul>
           <li>
@@ -70,7 +70,7 @@
           </li>
         </ul>
       </div>
-      <div class="">
+      <div class="col-width">
         <h6>Broker Solution</h6>
         <ul>
           <li>
@@ -95,7 +95,7 @@
           </li>
         </ul>
       </div>
-      <div class="">
+      <div class="col-width">
         <h6>Services</h6>
         <ul>
           <li>
@@ -125,7 +125,7 @@
           </li>
         </ul>
       </div>
-      <div class="">
+      <div class="col-width">
         <h6>Research & Advisory</h6>
         <ul>
           <li>
@@ -150,7 +150,7 @@
           </li>
         </ul>
       </div>
-      <div class="">
+      <div class="col-width">
         <h6>Institutional Trading</h6>
         <ul>
           <li>
