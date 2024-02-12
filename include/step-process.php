@@ -1,4 +1,4 @@
-<section class="process-steps">
+<section class="process-steps overflow-hidden">
     <div class="container work-process  pb-5 pt-5">
         <div class="title mb-5 text-center">
             <h3>Setup your own forex brokerage in 8 Steps</h3>

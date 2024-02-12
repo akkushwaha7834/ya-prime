@@ -1399,14 +1399,14 @@ a {
 
 .process-point-right:before {
     content: "";
-    height: 134px;
+    height: 115px;
     width: 11px;
     background: #000;
     display: inline-grid;
     transform: rotate(36deg);
     position: relative;
-    left: -50px;
-    top: -0px;
+    left: -40px;
+    top: 6px;
 }
 
 .process-point-left {
@@ -1419,19 +1419,19 @@ a {
     margin: auto 0;
     position: absolute;
     bottom: 40px;
-    right: -83px;
+    right: -95px;
 }
 
 .process-point-left:before {
     content: "";
-    height: 134px;
+    height: 110px;
     width: 11px;
     background: #000;
     display: inline-grid;
-    transform: rotate(-38deg);
+    transform: rotate(-32deg);
     position: relative;
-    left: 48px;
-    top: 0px;
+    left: 30px;
+    top: 10px;
 
 }
 
@@ -1479,7 +1479,7 @@ a {
     background: #ffc008;
     height: 4px;
     position: absolute;
-    width: 136px;
+    width: 140px;
     right: -145px;
     top: 60px;
     z-index: 9;
@@ -1489,8 +1489,8 @@ a {
     background: #ffc008;
     height: 4px;
     position: absolute;
-    width: 136px;
-    left: -145px;
+    width: 130px;
+    left: -133px;
     top: 60px;
     z-index: 9;
 }

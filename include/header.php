@@ -9,6 +9,7 @@
       <link rel="stylesheet" href="./vendor/font-awesome/css/all.min.css" />
       <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
       <link rel="stylesheet" href="./css/style.css" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    </head>
    <body>
       <div class="cursor d-lg-block d-none"></div>
