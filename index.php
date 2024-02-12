@@ -87,7 +87,7 @@
 
 <?php include('./include/unique-features.php'); 
 include('./include/partners-section.php'); ?>
-
+<?php include_once('./include/inner-section.php') ?>
 
 
 <?php include_once('./include/footer.php') ?>

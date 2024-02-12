@@ -1547,3 +1547,22 @@ a {
     margin-top: -15px;
     object-fit: cover;
 }
+.inner_section{
+    padding: 100px 0;
+    background: #fff;
+}
+
+.image_content_wl{
+    box-shadow: 0 17px 29px rgba(0,0,0,.04), 0 5.125px 8.74265px rgba(0,0,0,.0260636), 0 2.12866px 3.63125px rgba(0,0,0,.02), 0 0.7699px 1.31335px rgba(0,0,0,.013936);
+    padding: 10px;
+    border-radius: 16px;
+}
+/*.image--img::before{
+    background-image: url("../images/arrow1.png");
+    content: "";
+    position: absolute;
+    bottom: 16px;
+    width: 210px!important;
+    height: 52px!important;
+    left: 24.5%;
+}*/
