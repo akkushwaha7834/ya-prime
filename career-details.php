@@ -29,24 +29,24 @@
 					<h4>
 						Job Summary
 					</h4>
-					<ul>
+					<ul class="career_details_list">
 						<li>
-							Location: Chennai
+							<b>Location</b>: Chennai
 						</li>
 						<li>
-							Project role: Senior analyst
+							<b>Project role</b>: Senior analyst
 						</li>
 						<li>
-							Qualification: B-Tech
+							<b>Qualification</b>: B-Tech
 						</li>
 						<li>
-							Experience: 4.5-8 Years
+							<b>Experience</b>: 4.5-8 Years
 						</li>
 						<li>
-							Skills: FEA Analysis
+							<b>Skills</b>: FEA Analysis
 						</li>
 						<li>
-							No. of positions: 25
+							<b>No. of positions</b>: 25
 						</li>
 					</ul>
 					<h4>
@@ -55,7 +55,7 @@
 					<p>
 						To understand the design specifications| conduct analysis| deliver the results of analysis done on it as per the defined quality and time standards and suggest design modification in case of structural failure.
 					</p>
-					<ul>
+					<ul class="career_details_list">
 						<li>
 							To gather information and to prepare the methodology for the analysis
 						</li>
@@ -76,7 +76,10 @@
 			</div>
 			<div class="col-md-6">
 				<div class="careers_sticky_sidebar">
-					<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Request Quote</button>
+					<div class="apply_image">
+						<img src="images/apply.webp" class="img-fluid">
+					</div>
+					<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</button>
 				</div>
 			</div>
 		</div>
