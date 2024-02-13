@@ -361,6 +361,8 @@
   </div>
 </section>
 
+<?php include_once('./include/benefits.php') ?>
+
 <section class="py-5 bg-warning-subtle">
   <div class="container">
     <div class="row">
