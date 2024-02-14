@@ -1729,3 +1729,44 @@ a {
 .meta_support{
     padding: 80px 0 20px;
 }
+.our_team_banner{
+    background: url(../images/our-team.jpg);
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.teams_card.two {
+    box-shadow: 10px 10px 40px 0 rgba(0,0,0,.1);
+    transition-duration: .5s;
+    cursor: pointer;
+}
+.teams_card {
+    padding: 60px 20px;
+    text-align: center;
+}
+.teams_card.two:hover {
+    box-shadow: 5px 5px 6px 0 rgb(250 194 19);
+}
+.team_member_image {
+    width: 40%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.teams_content{
+    padding: 80px 0;
+}
+.team_social a {
+    padding: 5px 10px;
+    background: #fac213;
+    color: #fac213;
+    border-radius: 5px;
+    border: 1px solid #fac213;
+}
+.team_social a i {
+    color: #fff;
+}
+.teams_heading h2, .teams_heading p{
+    text-align: center;
+}
