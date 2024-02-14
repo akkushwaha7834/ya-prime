@@ -1,6 +1,6 @@
 <?php include_once('./include/header.php') ?>
 
-<section class="careers_banner">
+<section class="blogs_banner">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
