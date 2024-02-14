@@ -1642,3 +1642,35 @@ a {
     line-height: 30px;
     color: #FFC007;
 }
+.careers_right_card {
+    background: #FEFCF6;
+    padding: 40px 50px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.apply_now_button{
+    background: #fac213;
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: #000;
+    border-radius: 5px ;
+}
+.careers_image_box {
+    border: 1px solid var(--bs-warning-bg-subtle);
+    border-image-source: linear-gradient(90deg, rgba(34, 34, 34, 0.1) 0%, rgb(255, 193, 7) 50%, rgba(34, 34, 34, 0.1) 100%);
+    border-image-slice: 1;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.careers_values{
+    padding: 80px 0;
+    background: #F8F9FA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.career_openings{
+    padding: 80px 0;
+}
