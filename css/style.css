@@ -1686,3 +1686,24 @@ a {
     background: #ffc008;
     color: #fff;
 }
+
+.our_blog_grid{
+    padding: 80px 0;
+}
+.blog-card:hover {
+    transition: 0.5s ease-out;
+    transform: scale(1.06);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.blog-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: 0.5 ease;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.blog-card h3 {
+    font-size: 16px;
+}
