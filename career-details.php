@@ -123,7 +123,7 @@
                   <label for="exampleFormControlTextarea1">Give me a brief about your requirement</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" cols="50" placeholder="Message" name="message"></textarea>
                 </div>
-                <button type="submit" class="unique_anchor_one btn btn-primary">Submit</button>
+                <button type="submit" class="apply_now_btn btn btn-primary">Apply Now</button>
               </form>
             </div>
           </div>

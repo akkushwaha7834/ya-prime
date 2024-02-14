@@ -1677,3 +1677,12 @@ a {
 .modal-body.apply_now_popup{
     padding: 20px;
 }
+.apply_now_btn.btn.btn-primary {
+    background: #fff;
+    border: 1px solid #ffc008;
+    color: #ffc008;
+}
+.apply_now_btn.btn.btn-primary:hover {
+    background: #ffc008;
+    color: #fff;
+}
