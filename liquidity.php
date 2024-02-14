@@ -32,6 +32,27 @@
   .faq-accordion .accordion-button:not(.collapsed)::after {
     content: '+';
   }
+
+  .benefit-cards>.col-md-6>.card {
+    transition: all .2s ease-in;
+  }
+
+  .benefit-cards>.col-md-6>.card.bg-warning:hover {
+    background-color: #fff !important;
+  }
+
+  .benefit-cards>.col-md-6>.card:hover {
+    background-color: #fac213;
+    box-shadow: var(--bs-box-shadow);
+  }
+
+  .table-responsive .table-hover>tbody>tr:hover>* {
+    --bs-table-bg-state: var(--bs-warning);
+  }
+
+  .table-responsive .table-striped>tbody>tr:nth-of-type(2n+1)>* {
+    --bs-table-bg-type: var(--bs-warning-bg-subtle);
+  }
 </style>
 
 <section class="liquidity_banner">
@@ -355,13 +376,15 @@
       </section>
     </div>
 
-    <div id="prime-vvip"></div>
+    <div id="prime-vvip">
+      <?php include_once('./include/benefits.php') ?>
+    </div>
 
-    <div id="prime-special"></div>
+    <div id="prime-special">
+      <?php include_once('./include/brokerage-setup.php') ?>
+    </div>
   </div>
 </section>
-
-<?php include_once('./include/benefits.php') ?>
 
 <section class="py-5 bg-warning-subtle">
   <div class="container">

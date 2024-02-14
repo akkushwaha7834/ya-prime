@@ -1,23 +1,12 @@
-<style>
-    .benefit-cards>.col-md-6>.card {
-        transition: all .2s ease-in;
-    }
-
-    .benefit-cards>.col-md-6>.card.bg-warning:hover {
-        background-color: #fff !important;
-    }
-
-    .benefit-cards>.col-md-6>.card:hover {
-        background-color: #fac213;
-    }
-</style>
 <section class="py-5">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row g-md-0 gy-3 benefit-cards">
             <div class="col-md-6">
-                <h2 class="benefits-heading text-start">Benefits</h2>
-                <h3 class="benefits_heading text-start">Benefits of Using Prime VVIP Package</h3>
-                <p>Our Prime packages are designed to support forex brokers at every level. Enjoy our Prime VVIP package, specially put together to take your brokerage to the next level. </p>
+                <div class="p-3">
+                    <h2 class="benefits-heading text-start">Benefits</h2>
+                    <h3 class="benefits_heading text-start">Benefits of Using Prime VVIP Package</h3>
+                    <p>Our Prime packages are designed to support forex brokers at every level. Enjoy our Prime VVIP package, specially put together to take your brokerage to the next level. </p>
+                </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="card rounded-0 bg-warning border-0 h-100">
