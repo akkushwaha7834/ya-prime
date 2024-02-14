@@ -1674,3 +1674,6 @@ a {
 .career_openings{
     padding: 80px 0;
 }
+.modal-body.apply_now_popup{
+    padding: 20px;
+}

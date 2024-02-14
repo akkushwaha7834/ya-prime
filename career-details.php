@@ -79,11 +79,59 @@
 					<div class="apply_image">
 						<img src="images/apply.webp" class="img-fluid">
 					</div>
-					<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</button>
+					<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#apply_pop">Apply Now</button>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+<!-- Pop Up -->
+<div class="modal fade" id="apply_pop" tabindex="-1" aria-labelledby="apply_pop" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="apply_pop">Apply Now </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body apply_now_popup">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 pop_up_form_class">
+              <form>
+                <div class="row form-group mb-3">
+                  <div class="col-md-6">
+                    <label for="FullName">Full Name</label>
+                    <input type="text" class="form-control" id="full_name" placeholder="Full Name" required="" name="full_name" data-gtm-form-interact-field-id="1">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email_id">Email Address</label>
+                    <input type="text" class="form-control" id="email_id" placeholder="Email Address" required="" name="email_id" data-gtm-form-interact-field-id="2">
+                  </div>
+                </div>
+                <div class="row form-group mb-3">
+                  <div class="col-md-6">
+                    <label for="inputState">Enter Contact Number</label>
+                    <input type="text" placeholder="Enter Contact Number" name="contact_number" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputState">Upload Resume</label>
+                    <input type="file" class="form-control" id="customFile" />
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="exampleFormControlTextarea1">Give me a brief about your requirement</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" cols="50" placeholder="Message" name="message"></textarea>
+                </div>
+                <button type="submit" class="unique_anchor_one btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <?php include_once('./include/footer.php') ?>
