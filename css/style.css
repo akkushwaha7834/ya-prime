@@ -1703,6 +1703,7 @@ a {
     transition: 0.5 ease;
     cursor: pointer;
     transition: 0.5s ease-in;
+    height: 100%;
 }
 .blog-card h3 {
     font-size: 16px;
@@ -1724,4 +1725,7 @@ a {
     background-position: center;
     color: #fff;
     background-attachment: fixed;
+}
+.meta_support{
+    padding: 80px 0 20px;
 }

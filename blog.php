@@ -17,7 +17,7 @@
 
 <section class="our_blog_grid">
     <div class="container">
-      <div class="row ">
+      <div class="row gy-4 ">
         <div class="col-md-3">
           <a href="https://www.yaprime.com/old/blog/top-web-development-services">
             <div class="card blog-card ">
