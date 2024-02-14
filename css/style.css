@@ -1623,7 +1623,7 @@ a {
     padding: 80px 0;
 }
 .careers_sticky_sidebar{
-    padding: 50px 20px;
+/*    padding: 50px 20px;*/
     position: sticky;
     top: 0;
     margin: 0 auto;
@@ -1631,4 +1631,79 @@ a {
 }
 .careers_sticky_sidebar button{
     width: 80%;
+}
+.career_details_list li{
+    list-style: none;
+}
+.career_details_list li::before {
+    content: "\f560";
+    font-family: 'FontAwesome';
+    margin-right: 7px;
+    line-height: 30px;
+    color: #FFC007;
+}
+.careers_right_card {
+    background: #FEFCF6;
+    padding: 40px 50px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.apply_now_button{
+    background: #fac213;
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: #000;
+    border-radius: 5px ;
+}
+.careers_image_box {
+    border: 1px solid var(--bs-warning-bg-subtle);
+    border-image-source: linear-gradient(90deg, rgba(34, 34, 34, 0.1) 0%, rgb(255, 193, 7) 50%, rgba(34, 34, 34, 0.1) 100%);
+    border-image-slice: 1;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.careers_values{
+    padding: 80px 0;
+    background: #F8F9FA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.career_openings{
+    padding: 80px 0;
+}
+.modal-body.apply_now_popup{
+    padding: 20px;
+}
+.apply_now_btn.btn.btn-primary {
+    background: #fff;
+    border: 1px solid #ffc008;
+    color: #ffc008;
+}
+.apply_now_btn.btn.btn-primary:hover {
+    background: #ffc008;
+    color: #fff;
+}
+
+.our_blog_grid{
+    padding: 80px 0;
+}
+.blog-card:hover {
+    transition: 0.5s ease-out;
+    transform: scale(1.06);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.blog-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: 0.5 ease;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.blog-card h3 {
+    font-size: 16px;
 }
