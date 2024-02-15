@@ -1770,3 +1770,13 @@ a {
 .teams_heading h2, .teams_heading p{
     text-align: center;
 }
+.institutional_clients_banner {
+    background-image: url(../images/institutional-clients.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #ffffff;
+    padding: 100px 0;
+    color: #fff;
+    background-attachment: fixed;
+}
