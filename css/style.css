@@ -1780,3 +1780,47 @@ a {
     color: #fff;
     background-attachment: fixed;
 }
+.portfolio_start {
+    padding: 80px 0;
+}
+.content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+.port_number {
+    font-size: 200px;
+    color: #e6e6e6;
+    text-align: center;
+}
+.port_name {
+    font-size: 32px;
+    color: #797979!important;
+}
+.port_link {
+    margin-top: 50px;
+}
+.port_link a {
+    background: #fac213;
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 8px;
+    transition-duration: .3s;
+}
+.content-overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.port_link a:hover {
+    border-radius: 20px 0;
+    transition-duration: .3s;
+}
