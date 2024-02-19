@@ -88,7 +88,7 @@
 						Trust is paramount in the forex industry. We establish trust by maintaining transparent and ethical practices in all our dealings. Clients can rely on YaPrime as a dependable partner for their forex brokerages. We consistently deliver high-quality services and support. Our commitment to trust and reliability ensures that our clients can operate with confidence and peace of mind.
 					</p>
 					<div class="port_link">
-						<a href="#" class="port_link">Visit Website</a>
+						<a href="#" class="">Visit Website</a>
 					</div>
 				</div>
 			</div>
