@@ -10,6 +10,15 @@
       <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
       <link rel="stylesheet" href="./css/style.css" />
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S2CT2TEW5G"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-S2CT2TEW5G');
+      </script>
    </head>
    <body>
       <div class="cursor d-lg-block d-none"></div>
