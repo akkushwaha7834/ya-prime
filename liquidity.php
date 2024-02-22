@@ -1,60 +1,5 @@
 <?php include_once('./include/header.php') ?>
 
-<style>
-  .image-box {
-    padding: 1rem;
-    border: 1px solid var(--bs-warning-bg-subtle);
-    border-image-source: linear-gradient(90deg, rgba(34, 34, 34, 0.1) 0%, rgb(255, 193, 7) 50%, rgba(34, 34, 34, 0.1) 100%);
-    border-image-slice: 1;
-  }
-
-  #navbar-prime .nav-pills .nav-link {
-    color: #060606;
-  }
-
-  #navbar-prime .nav-pills .nav-link:is(.active, :hover) {
-    background-color: #fac213;
-  }
-
-  .faq-accordion .accordion-button:not(.collapsed) {
-    background-color: #060606;
-    color: #fac213;
-  }
-
-  .faq-accordion .accordion-button::after {
-    background: none;
-    content: '-';
-    font-size: 1.5rem;
-    line-height: 0.8rem;
-    text-align: center;
-  }
-
-  .faq-accordion .accordion-button:not(.collapsed)::after {
-    content: '+';
-  }
-
-  .benefit-cards>.col-md-6>.card {
-    transition: all .2s ease-in;
-  }
-
-  .benefit-cards>.col-md-6>.card.bg-warning:hover {
-    background-color: #fff !important;
-  }
-
-  .benefit-cards>.col-md-6>.card:hover {
-    background-color: #fac213;
-    box-shadow: var(--bs-box-shadow);
-  }
-
-  .table-responsive .table-hover>tbody>tr:hover>* {
-    --bs-table-bg-state: var(--bs-warning);
-  }
-
-  .table-responsive .table-striped>tbody>tr:nth-of-type(2n+1)>* {
-    --bs-table-bg-type: var(--bs-warning-bg-subtle);
-  }
-</style>
-
 <section class="liquidity_banner">
   <div class="container">
     <div class="row">
@@ -66,6 +11,27 @@
           <span class="current">Liquidity</span>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="liquidity-content">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2>Liquidity Solutions</h2>
+        <p>
+          Step onto the ladder of elite FX liquidity with YaPrime. We are one of the leading Forex Liquidity Providers, and with our relentless dedication, we deliver you the highest possible liquidity solution. Select from the broadest selection of integration options available, including APIs and FIX connectivity, to easily integrate your current systems into our liquidity offering.</p>
+        <p>
+          YaPrime gives you DMA (Direct Market Access) on regulated liquidity pools via our LPs; LPs offer low latency pricing in FX, CFDs, options and other financial products. Get into exceptional Forex trading with us as you explore the Best Forex Liquidity solutions that renovate the industry.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div class="">
+          <img src="images/liquidity_ab.jpg" class="img-fluid" width="">
+        </div>
+      </div>
+
     </div>
   </div>
 </section>

@@ -1824,3 +1824,141 @@ a {
     border-radius: 20px 0;
     transition-duration: .3s;
 }
+.image-box {
+    padding: 1rem;
+    border: 1px solid var(--bs-warning-bg-subtle);
+    border-image-source: linear-gradient(90deg, rgba(34, 34, 34, 0.1) 0%, rgb(255, 193, 7) 50%, rgba(34, 34, 34, 0.1) 100%);
+    border-image-slice: 1;
+  }
+
+#navbar-prime .nav-pills .nav-link {
+    color: #060606;
+}
+
+#navbar-prime .nav-pills .nav-link:is(.active, :hover) {
+    background-color: #fac213;
+}
+
+#navbar-broker .nav-pills .nav-link {
+    color: #060606;
+}
+
+#navbar-broker .nav-pills .nav-link:is(.active, :hover) {
+    background-color: #fac213;
+}
+.faq-accordion .accordion-button:not(.collapsed) {
+    background-color: #060606;
+    color: #fac213;
+}
+
+.faq-accordion .accordion-button::after {
+    background: none;
+    content: '-';
+    font-size: 1.5rem;
+    line-height: 0.8rem;
+    text-align: center;
+}
+
+.faq-accordion .accordion-button:not(.collapsed)::after {
+    content: '+';
+}
+
+.benefit-cards>.col-md-6>.card {
+    transition: all .2s ease-in;
+}
+
+.benefit-cards>.col-md-6>.card.bg-warning:hover {
+    background-color: #fff !important;
+}
+
+.benefit-cards>.col-md-6>.card:hover {
+    background-color: #fac213;
+    box-shadow: var(--bs-box-shadow);
+}
+
+.table-responsive .table-hover>tbody>tr:hover>* {
+    --bs-table-bg-state: var(--bs-warning);
+}
+
+.table-responsive .table-striped>tbody>tr:nth-of-type(2n+1)>* {
+    --bs-table-bg-type: var(--bs-warning-bg-subtle);
+}
+.liquidity-content{
+    padding: 80px 0;
+}
+.crm_h4 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #fac211!important;
+}
+.unique_anchor {
+    border-radius: 8px;
+    background-color: #ebebeb;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: left;
+    font-size: 16px;
+    color: #222;
+    border: 1px solid #ebebeb;
+    margin-left: 20px;
+}
+.crm_api_section{
+    padding: 50px 0;
+}
+.crm_image_box_one {
+    display: inline-block;
+}
+.crm_image_box_two {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+    font-weight: 600;
+}
+.mt4_white_lable_sec {
+    padding: 80px 0;
+    background: #F9FAFB;
+}
+.crm_image_text {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.wite_content{
+    padding: 20px;
+    border: 2px solid #fac213;
+    border-radius: 20px 0;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+    transition-duration: .3s;
+}
+.icon_box_heading{
+    margin-top: 10px;
+}
+.wite_content:hover {
+    border-radius: 0 20px;
+    transition-duration: .3s;
+}
+.admin-consultation-section{
+    background: #F9FAFB;
+    padding: 80px 0;
+}
+.white_label{
+    padding: 80px 0;
+}
+.broker_setup_banner {
+    background-image: url(../images/broker-setup-trading.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #ffffff;
+    padding: 100px 0;
+    color: #fff;
+    background-attachment: fixed;
+}
