@@ -1962,3 +1962,19 @@ a {
     color: #fff;
     background-attachment: fixed;
 }
+.prime_vvip_section{
+    background: #F9FAFB;
+    padding: 80px 0;
+}
+.prime_special_section{
+    padding: 80px 0;
+}
+.special_image_sec img {
+    margin-bottom: 10px;
+}
+.special_image_sec{
+background: var(--bs-warning-bg-subtle);
+    padding: 20px;
+    border-radius: 20px;
+    height: 100%;
+}

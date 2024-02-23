@@ -307,7 +307,7 @@
 
       <section class="liquidity-sub-parts">
         <div class="container">
-          <div class="row">
+          <div class="row text-center">
             <div class="col-md-12">
               <h4>Prime VIP</h4>
               <h2>Kickstart your Forex Brokerage with Our Prime VIP Account</h2>
@@ -343,11 +343,88 @@
     </div>
 
     <div id="prime-vvip">
+      <section class="prime_vvip_section">
+        <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-md-6">
+            <h4>Prime VVIP</h4>
+            <h2>Access a Wide Range of Forex Instruments</h2>
+            <p>With Prime VVIP, you can access a vast array of Forex instruments, including Groups, Manager, and Symbols, totalling 4+2+600.</p>
+            <h4>
+              Advanced Trading Tools & Resources
+            </h4>
+            <p>Prime VVIP includes various advanced tools like Web API, Forex CRM, Bonus plugin, Extended dealer features, Multi-level IB platform, and Liquidity manager.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/vvipsec.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
       <?php include_once('./include/benefits.php') ?>
+      </section>
     </div>
 
     <div id="prime-special">
-      <?php include_once('./include/brokerage-setup.php') ?>
+      <section class="prime_special_section">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-12">
+              <h4 class="benefits-heading">
+                PRIME SPECIAL
+              </h4>
+              <h2>Prime Special: The Complete Solution for Your Brokerage</h2>
+              <p>
+                Prime Special offers an exceptional suite of tools and services, providing your forex brokerage with a comprehensive package designed for top-tier performance and success in the industry.
+              </p>
+            </div>
+          </div>
+          <div class="row gy-4 mt-3">
+            <div class="col-md-4">
+              <div class="special_image_sec">
+                <img src="images/vvipimage1.svg" class="img-fluid">
+                <h4>Complete Forex Solution</h4>
+                <p>Prime Special offers a comprehensive package combining the features of Prime VIP and Prime VVIP packages, providing your brokerage with all essential tools for success.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="special_image_sec">
+                <img src="images/vvipimage2.svg" class="img-fluid">
+                <h4>Advanced Technology Access</h4>
+                <p>Access top-tier technology, including a WordPress website, MAM plugin, mobile manager, and Fix API manager, ensuring your brokerage stays at the forefront of the industry.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="special_image_sec">
+                <img src="images/vvipimage3.svg" class="img-fluid">
+                <h4>Efficient Asset Management</h4>
+                <p>With the MAM plugin, asset managers can efficiently manage multiple sub-accounts from a master account, simplifying margin management and trading activities.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="special_image_sec">
+                <img src="images/vvipimage4.svg" class="img-fluid">
+                <h4>Mobile Trading Flexibility</h4>
+                <p>Stay connected and manage your forex business on the go with the mobile manager, ensuring you remain agile and responsive in the dynamic forex market.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="special_image_sec">
+                <img src="images/vvipimage5.svg" class="img-fluid">
+                <h4>Professional WordPress Website</h4>
+                <p>A professionally designed WordPress website enhances your online credibility, attracting traders and investors to your brokerage.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="special_image_sec">
+                <img src="images/vvipimage6.svg" class="img-fluid">
+                <h4>Diversified Trading Opportunities</h4>
+                <p>The Fix API manager broadens your trading horizons by providing connectivity to various liquidity providers, offering your clients a wide range of trading instruments and assets</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <?php include_once('./include/brokerage-setup.php') ?>
+      </section>
     </div>
   </div>
 </section>
