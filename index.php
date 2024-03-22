@@ -19,7 +19,8 @@
         <a href="#" class="d-inline-block mt4_anchor">Find out more</a>
       </div>
       <div class="col-md-6">
-        <img src="./images/woman-banner.webp" alt="ACCELERATE THE USER EXPERIENCE" class="img-fluid" />
+        <!-- <img src="./images/woman-banner.webp" alt="ACCELERATE THE USER EXPERIENCE" class="img-fluid" /> -->
+        <lottie-player src="images/lottie-json/banner.json" background="transparent" speed="1"  direction="1" mode="normal" loop autoplay></lottie-player>
       </div>
     </div>
   </div>
@@ -32,7 +33,9 @@
         <div class="image_box">
           <div class="image_col">
             <div class="image_caption">
-              <img src="images/forex.png">
+              <center>
+              <lottie-player src="images/lottie-json/forex.json" style="width: 100px; height: 100px" background="transparent" speed="1"  direction="1" mode="normal" loop autoplay></lottie-player>
+              </center>
               <h3 class="factoids_number">30+</h3>
               <h4>Forex</h4>
               <p>Happy Customers serving their Fullfledged Service to Connect traders.</p>
@@ -44,7 +47,9 @@
         <div class="image_box">
           <div class="image_col">
             <div class="image_caption">
-              <img src="images/indices.png">
+            <center>
+              <lottie-player src="images/lottie-json/indices.json" style="width: 100px; height: 100px" background="transparent" speed="1"  direction="1" mode="normal" loop autoplay></lottie-player>
+            </center>
               <h3 class="factoids_number">1.2+</h3>
               <h4>Indices</h4>
               <p>More than Million traders booking their trades Peacefully.</p>
@@ -56,7 +61,9 @@
         <div class="image_box">
           <div class="image_col">
             <div class="image_caption">
-              <img src="images/commodities.png">
+            <center>
+              <lottie-player src="images/lottie-json/gold.json" style="width: 100px; height: 100px" background="transparent" speed="1"  direction="1" mode="normal" loop autoplay></lottie-player>
+            </center>
               <h3 class="factoids_number">2+</h3>
               <h4>Commodities</h4>
               <p>Know Why YaPrime, Technology Pioneer-Technically, Best in the market.</p>
@@ -68,7 +75,9 @@
         <div class="image_box">
           <div class="image_col">
             <div class="image_caption">
-              <img src="images/stock.png">
+            <center>
+              <lottie-player src="images/lottie-json/stocks.json" style="width: 100px; height: 100px" background="transparent" speed="1"  direction="1" mode="normal" loop autoplay></lottie-player>
+            </center>
               <h3 class="factoids_number">300+</h3>
               <h4>Stocks</h4>
               <p>More than Million traders booking their trades Peacefully.</p>

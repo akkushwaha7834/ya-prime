@@ -19,6 +19,7 @@
 
         gtag('config', 'G-S2CT2TEW5G');
       </script>
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
    </head>
    <body>
       <div class="cursor d-lg-block d-none"></div>
